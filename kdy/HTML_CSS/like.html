@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="like.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="animation.css" />
 </head>
 <body>
     <!-- 검색영역 -->
@@ -20,8 +21,8 @@
 
     <!-- 텍스트영역 -->
     <div class="text-area">
-        <h1>Likes 72</h1>
-        <div class="desc">
+        <h1 class="stagger-item">Likes 72</h1>
+        <div class="desc stagger-item">
             We'll make a mobile magazine app
             <br/>
             using html, css only.
@@ -30,12 +31,27 @@
 
     <!-- 콜렉션뷰 -->
     <ul class="list">
-        <li class="item"></li>
-        <li class="item"></li>
-        <li class="item"></li>
-        <li class="item"></li>
-        <li class="item"></li>
-        <li class="item"></li>
+        <li class="item stagger-item"></li>
+        <li class="item stagger-item"></li>
+        <li class="item stagger-item"></li>
+        <li class="item stagger-item"></li>
+        <li class="item stagger-item"></li>
+        <li class="item stagger-item"></li>
     </ul>
+
+    <nav class="gnb">
+        <a href="index.html" class="cover mouse-effect">
+            <img src="img/icon/cover.svg">
+        </a>
+        <a href="issue.html" class="issue mouse-effect">
+            <img src="img/icon/issue.svg">
+        </a>
+        <a href="like.html" class="like mouse-effect active">
+            <img src="img/icon/like.svg">
+        </a>
+        <a href="my.html" class="my mouse-effect">
+            <img src="img/icon/more.svg">
+        </a>
+    </nav>
 </body>
 </html>

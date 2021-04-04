@@ -7,22 +7,23 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="animation.css" />
 </head>
 <body>
     <!-- 텍스트 영역 -->
-    <div class="text-area">
+    <div class="text-area stagger-wrapper">
         <h1>
-            <div class="volume">vol. 4</div>
+            <div class="volume stagger-item">vol. 4</div>
             <div class="title">
-                Classics
-                <div class="line"></div>
-                <br/>
-                never
-                <br/>
-                get old
+                <div class="stagger-item">
+                    Classics
+                    <div class="line"></div>
+                </div>
+                <div class="stagger-item">never</div>
+                <div class="stagger-item">get old</div>
             </div>
         </h1>
-        <p>
+        <p class="desc stagger-item">
             We'll make a mobile magazine
             <br/>
             using html, css only.
@@ -40,5 +41,20 @@
         <br/>
         clusive
     </div>
+
+    <nav class="gnb">
+        <a href="index.html" class="cover mouse-effect active">
+            <img src="img/icon/cover.svg">
+        </a>
+        <a href="issue.html" class="issue mouse-effect">
+            <img src="img/icon/issue.svg">
+        </a>
+        <a href="like.html" class="like mouse-effect">
+            <img src="img/icon/like.svg">
+        </a>
+        <a href="my.html" class="my mouse-effect">
+            <img src="img/icon/more.svg">
+        </a>
+    </nav>
 </body>
 </html>

@@ -7,30 +7,33 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="my.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="animation.css" />
 </head>
 <body>
     <header>
         <div class="thumb-wrapper">
-            <img class="thumb" src="img/user-thumb.png">
-            <div class="badge">7</div>
+            <img class="thumb stagger-item" src="img/user-thumb.png">
+            <div class="badge stagger-item">7</div>
         </div>
 
         <div class="text-area">
-            <h2 class="greeting">Hi, Mary Jane</h2>
-            <div class="desc">
+            <h2 class="greeting stagger-item">Hi, Mary Jane</h2>
+            <div class="desc stagger-item">
                 We'll make a mobiel magazine
                 <br/>
                 using html, css only.
             </div>
         </div>
 
-        <div class="mail">
+        <div class="mail mouse-effect stagger-item">
+            <a href="mailto:coby5502@gmail.com">
             coby5502@gmail.com
+            </a>
         </div>
     </header>
 
     <ul class="list">
-        <li class="item">
+        <li class="item mouse-effect stagger-item">
             <div class="left">
                 <img src="img/icon/bookmark.svg">
                 <div class="name">Bookmark</div>
@@ -40,7 +43,7 @@
             </div>
         </li>
 
-        <li class="item">
+        <li class="item mouse-effect stagger-item">
             <div class="left">
                 <img src="img/icon/account.svg">
                 <div class="name">Account Info</div>
@@ -50,7 +53,7 @@
             </div>
         </li>
 
-        <li class="item">
+        <li class="item mouse-effect stagger-item">
             <div class="left">
                 <img src="img/icon/business.svg">
                 <div class="name">Bussiness</div>
@@ -60,7 +63,7 @@
             </div>
         </li>
 
-        <li class="item">
+        <li class="item mouse-effect stagger-item">
             <div class="left">
                 <img src="img/icon/puzzle.svg">
                 <div class="name">Blah Blah</div>
@@ -70,5 +73,20 @@
             </div>
         </li>
     </ul>
+
+    <nav class="gnb">
+        <a href="index.html" class="cover mouse-effect">
+            <img src="img/icon/cover.svg">
+        </a>
+        <a href="issue.html" class="issue mouse-effect">
+            <img src="img/icon/issue.svg">
+        </a>
+        <a href="like.html" class="like mouse-effect">
+            <img src="img/icon/like.svg">
+        </a>
+        <a href="my.html" class="my mouse-effect active">
+            <img src="img/icon/more.svg">
+        </a>
+    </nav>
 </body>
 </html>
