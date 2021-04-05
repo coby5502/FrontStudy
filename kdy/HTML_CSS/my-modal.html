@@ -6,26 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="my.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="my-modal.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="animation.css" />
 </head>
 <body>
     <header>
-        <div class="thumb-wrapper stagger-item">
-            <a href="my-modal.html"><img class="thumb" src="img/user-thumb.png"></a>
+        <div class="thumb-wrapper">
+            <img class="thumb" src="img/user-thumb.png">
             <div class="badge">7</div>
         </div>
 
         <div class="text-area">
-            <h2 class="greeting stagger-item">Hi, Mary Jane</h2>
-            <div class="desc stagger-item">
+            <h2 class="greeting">Hi, Mary Jane</h2>
+            <div class="desc">
                 We'll make a mobiel magazine
                 <br/>
                 using html, css only.
             </div>
         </div>
 
-        <div class="mail mouse-effect stagger-item">
+        <div class="mail mouse-effect">
             <a href="mailto:coby5502@gmail.com">
             coby5502@gmail.com
             </a>
@@ -33,7 +33,7 @@
     </header>
 
     <ul class="list">
-        <li class="item mouse-effect stagger-item">
+        <li class="item mouse-effect">
             <div class="left">
                 <img src="img/icon/bookmark.svg">
                 <div class="name">Bookmark</div>
@@ -43,7 +43,7 @@
             </div>
         </li>
 
-        <li class="item mouse-effect stagger-item">
+        <li class="item mouse-effect">
             <div class="left">
                 <img src="img/icon/account.svg">
                 <div class="name">Account Info</div>
@@ -53,7 +53,7 @@
             </div>
         </li>
 
-        <li class="item mouse-effect stagger-item">
+        <li class="item mouse-effect">
             <div class="left">
                 <img src="img/icon/business.svg">
                 <div class="name">Bussiness</div>
@@ -63,7 +63,7 @@
             </div>
         </li>
 
-        <li class="item mouse-effect stagger-item">
+        <li class="item mouse-effect">
             <div class="left">
                 <img src="img/icon/puzzle.svg">
                 <div class="name">Blah Blah</div>
@@ -88,5 +88,21 @@
             <img src="img/icon/more.svg">
         </a>
     </nav>
+
+    <div class="overlay"></div>
+    
+    <div class="modal-wrapper">        
+        <div class="modal-inner">
+          <div class="thumb"></div>
+          <div class="bottom-info">
+            <div class="title">Dear, Designers.</div>
+            <p class="description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. It has been the industry's standard.
+            </p>
+            <a href="my.html"><button>Close</button></a>
+          </div>
+        </div>
+    </div>
 </body>
 </html>
